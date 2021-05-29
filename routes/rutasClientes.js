@@ -3,7 +3,7 @@ const router = express.Router()
 
 const clienteDB = require('../models/modeloClientes')
 
-router.get('/inicio', (req, res) => {
+router.get('/', (req, res) => {
   res.render('pages/inicio')
 })
 
